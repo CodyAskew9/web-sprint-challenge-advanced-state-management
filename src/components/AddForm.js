@@ -10,7 +10,7 @@ const AddForm = (props) => {
     });
 
     //remove when error state is added
-    const errorMessage = "";
+    const { errorMessage } = props;
 
     const handleChange = e => {
         setState({
