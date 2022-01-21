@@ -1,6 +1,7 @@
 import React from 'react';
 import Smurf from './Smurf';
-import { connect } from 'react-redux';
+
+import { connect } from "react-redux";
 
 const SmurfList = (props)=> {
 
@@ -27,7 +28,6 @@ const mapToStateProps = (state) => {
   }
 
 export default connect(mapToStateProps, {})(SmurfList);
-
 
 //Task List:
 //1. Connect the smurfs and loading state values to the SmurfList component.
